@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url('../img/ignite.jpg');
+	background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    
+}
+.content{
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 5rem;
+}
+p{
+    font-size: 2rem;
+}
+.btn{
+    background-color: rgb(21, 21, 163);
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #d44d4d;
+    color: #000;
+}
+#quate{
+    font-size: 1.5em;
+	margin-bottom: 15px;
+}
